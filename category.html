@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store - Category</title>
+    <!-- boxicon -->
+    <link rel="stylesheet" href="styles/boxicon.css">
+    <!-- css main -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- media -->
+    <link rel="stylesheet" href="styles/media.css">
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="images/fav-icon.png">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="navigation">
+            <!-- menu btn -->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+            <!-- logo -->
+            <a href="index.html" class="logo">Furnity</a>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#recent">Recent</a></li>
+            </ul>
+            <!-- btns -->
+            <div class="nav-btns">
+                <!-- search -->
+                <a href="#" class="nav-search">
+                    <i class='bx bx-search-alt-2'></i>
+                </a>
+                <!-- user -->
+                <a href="#" class="nav-user">
+                    <i class='bx bx-user' ></i>
+                </a>
+                <!-- cart -->
+                <a href="#" class="nav-cart">
+                    <i class='bx bx-cart-alt' ></i>
+                    <span>0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- search bar -->
+    <div class="search-bar">
+        <div class="search-input">
+            <input type="text" placeholder="Search for ..." name="search/">
+            <!-- cancel btn -->
+            <a href="#" class="cancel-btn">
+                <i class='bx bx-x'></i>
+            </a>
+        </div>
+    </div>
+    <!-- login / register -->
+    <div class="form">
+        <!-- login -->
+        <div class="login-form">
+            <a href="#" class="form-cancel">
+                <i class='bx bx-x'></i>
+            </a>
+            <strong>Login</strong>
+            <!-- input -->
+            <form action="">
+                <input type="email" name="email" placeholder="Your email..." required>
+                <input type="password" name="password" placeholder="Your password..." required>
+                <input type="submit" value="Login"/>
+            </form>
+            <!-- forget signup -->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="#" class="register-btn">Create Account</a>
+            </div>
+        </div>
+
+        <!-- register -->
+        <div class="register-form">
+            <a href="#" class="form-cancel">
+                <i class='bx bx-x'></i>
+            </a>
+            <strong>Register</strong>
+            <!-- input -->
+            <form action="">
+                <input type="text" name="name" placeholder="Your Name..." required>
+                <input type="email" name="email" placeholder="Your email..." required>
+                <input type="password" name="password" placeholder="Your password..." required>
+                <input type="submit" value="Register"/>
+            </form>
+            <!-- forget signup -->
+            <div class="form-btns">
+                <a href="#" class="have">Have an Account?</a>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs-main">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Main</a></li>
+                    <li class="active">Chairs</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <!-- recent products -->
+    <section class="recent-products" id="recent">
+        <h2>Result: <span>Chairs</span></h2>
+        <div class="recent-products-container">
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p1.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Yard Chair</a>
+                    <span>150$ <del>180$</del></span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p7.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Pink Chair</a>
+                    <span>125$ <del>200$</del></span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p3.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Chair</a>
+                    <span>200$ <del>250$</del></span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p8.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Orange Armchair</a>
+                    <span>120$</span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p9.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Blue Comfy Chair</a>
+                    <span>200$</span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p10.png" alt="product">
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Office Armchair</a>
+                    <span>180$</span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p11.png" alt="product">
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Black Office Chair</a>
+                    <span>160$</span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p12.png" alt="product">
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Wooden Chair</a>
+                    <span>65$</span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <ul id="pagination">
+            <li><a href="#"><i class='bx bx-left-arrow-alt'></i></a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#"><i class='bx bx-right-arrow-alt'></i></a></li>
+        </ul> 
+    </section>
+    <!-- category -->
+    <section class="category" id="category">
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c1.png" alt="">
+            </div>
+            <strong>Chair</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c2.png" alt="">
+            </div>
+            <strong>Sofa</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/с3.png" alt="">
+            </div>
+            <strong>Wardrobe</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/с4.png" alt="">
+            </div>
+            <strong>Desk</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c5.png" alt="">
+            </div>
+            <strong>Bed</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c6.png" alt="">
+            </div>
+            <strong>Set</strong>
+        </a>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- company box -->
+            <div class="footer-company-box">
+                <!-- logo -->
+                <a href="index.html" class="footer-logo">
+                    Furnity
+                </a>
+                <!-- details -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nihil illo ea. Laudantium doloribus excepturi ab eveniet soluta, fugiat, dicta sit maiores deserunt autem optio distinctio iure id iste minus.</p>
+                <!-- social -->
+                <div class="footer-social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <!-- link box -->
+            <div class="footer-link-box">
+                <strong>
+                    Main Links
+                </strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Recent</a></li>
+                </ul>
+            </div>
+            <!-- link box -->
+            <div class="footer-link-box">
+                <strong>
+                    External Links
+                </strong>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+            <!-- subscribe -->
+            <div class="subscribe">
+                <strong>Subscribe Now</strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi aperiam tempore?</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Your Email..." required />
+                    <button>Suscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

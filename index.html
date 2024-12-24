@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <!-- boxicon -->
+    <link rel="stylesheet" href="styles/boxicon.css">
+    <!-- css main -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- media -->
+    <link rel="stylesheet" href="styles/media.css">
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="images/fav-icon.png">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="navigation">
+            <!-- menu btn -->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+            <!-- logo -->
+            <a href="index.html" class="logo">Furnity</a>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#recent">Recent</a></li>
+            </ul>
+            <!-- btns -->
+            <div class="nav-btns">
+                <!-- search -->
+                <a href="#" class="nav-search">
+                    <i class='bx bx-search-alt-2'></i>
+                </a>
+                <!-- user -->
+                <a href="#" class="nav-user">
+                    <i class='bx bx-user' ></i>
+                </a>
+                <!-- cart -->
+                <a href="#" class="nav-cart">
+                    <i class='bx bx-cart-alt' ></i>
+                    <span>0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- search bar -->
+    <div class="search-bar">
+        <div class="search-input">
+            <input type="text" placeholder="Search for ..." name="search/">
+            <!-- cancel btn -->
+            <a href="#" class="cancel-btn">
+                <i class='bx bx-x'></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- login / register -->
+    <div class="form">
+        <!-- login -->
+        <div class="login-form">
+            <a href="#" class="form-cancel">
+                <i class='bx bx-x'></i>
+            </a>
+            <strong>Login</strong>
+            <!-- input -->
+            <form action="">
+                <input type="email" name="email" placeholder="Your email..." required>
+                <input type="password" name="password" placeholder="Your password..." required>
+                <input type="submit" value="Login"/>
+            </form>
+            <!-- forget signup -->
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="#" class="register-btn">Create Account</a>
+            </div>
+        </div>
+
+        <!-- register -->
+        <div class="register-form">
+            <a href="#" class="form-cancel">
+                <i class='bx bx-x'></i>
+            </a>
+            <strong>Register</strong>
+            <!-- input -->
+            <form action="">
+                <input type="text" name="name" placeholder="Your Name..." required>
+                <input type="email" name="email" placeholder="Your email..." required>
+                <input type="password" name="password" placeholder="Your password..." required>
+                <input type="submit" value="Register"/>
+            </form>
+            <!-- forget signup -->
+            <div class="form-btns">
+                <a href="#" class="have">Have an Account?</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section -->
+    <section class="main">
+        <div class="main-text">
+            <span>15% Off</span>
+            <h1>Comfy Furniture Kit</h1>
+            <p></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, dolorum!</p>
+            <a href="#">Shop Now</a>
+        </div>
+        <img src="images/main.png" alt="">
+    </section>
+
+    <!-- category -->
+    <section class="category" id="category">
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c1.png" alt="">
+            </div>
+            <strong>Chair</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c2.png" alt="">
+            </div>
+            <strong>Sofa</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/с3.png" alt="">
+            </div>
+            <strong>Wardrobe</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/с4.png" alt="">
+            </div>
+            <strong>Desk</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c5.png" alt="">
+            </div>
+            <strong>Bed</strong>
+        </a>
+        <a href="category.html" class="category-box">
+            <div class="category-img">
+                <img src="images/c6.png" alt="">
+            </div>
+            <strong>Set</strong>
+        </a>
+    </section>
+
+    <!-- popular -->
+    <section class="popular" id="popular">
+        <h2>Popular Furniture</h2>
+        <div class="popular-container">
+            <!-- products -->
+            <div class="product-container">
+                <!-- product -->
+                <div class="product-box">
+                    <!-- image -->
+                    <a href="product.html" class="product-box-img">
+                        <img src="images/p1.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <!-- text -->
+                    <div class="product-box-text">
+                        <a href="product.html" class="product-text-title">Yard Chair</a>
+                        <span>150$ <del>180$</del></span>
+                        <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                    </div>
+                </div>
+                <!-- product -->
+                <div class="product-box">
+                    <!-- image -->
+                    <a href="product.html" class="product-box-img">
+                        <img src="images/p2.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <!-- text -->
+                    <div class="product-box-text">
+                        <a href="product.html" class="product-text-title">Kitchen Set</a>
+                        <span>380$ <del>450$</del></span>
+                        <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                    </div>
+                </div>
+                <!-- product -->
+                <div class="product-box">
+                    <!-- image -->
+                    <a href="product.html" class="product-box-img">
+                        <img src="images/p3.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <!-- text -->
+                    <div class="product-box-text">
+                        <a href="product.html" class="product-text-title">Chair</a>
+                        <span>200$ <del>250$</del></span>
+                        <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                    </div>
+                </div>
+                <!-- product -->
+                <div class="product-box">
+                    <!-- image -->
+                    <a href="product.html" class="product-box-img">
+                        <img src="images/p4.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <!-- text -->
+                    <div class="product-box-text">
+                        <a href="product.html" class="product-text-title">Office Desk</a>
+                        <span>250$ <del>275$</del></span>
+                        <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                    </div>
+                </div>
+                <!-- product -->
+                <div class="product-box">
+                    <!-- image -->
+                    <a href="product.html" class="product-box-img">
+                        <img src="images/p5.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <!-- text -->
+                    <div class="product-box-text">
+                        <a href="product.html" class="product-text-title">Chair</a>
+                        <span>200$ <del>250$</del></span>
+                        <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                    </div>
+                </div>
+                <!-- product -->
+                <div class="product-box">
+                    <!-- image -->
+                    <a href="product.html" class="product-box-img">
+                        <img src="images/p6.png" alt="product">
+                        <span>New</span>
+                    </a>
+                    <!-- text -->
+                    <div class="product-box-text">
+                        <a href="product.html" class="product-text-title">Wardrobe</a>
+                        <span>500$ <del>600$</del></span>
+                        <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- banner -->
+            <div class="popular-banner">
+                <div class="popular-banner-text">
+                    <h3>Furniture Collection</h3>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="popular-banner-image">
+                    <img src="images/banner.png" alt="banner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- shop -->
+    <section class="shop-banner" id="shop">
+        <div class="shop-banner-container">
+            <!-- text -->
+            <div class="shop-banner-text">
+                <strong>Collection</strong>
+                <h3>Yard Sets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="#">Shop Now</a>
+            </div>
+            <!-- image -->
+            <div class="shop-banner-img">
+                <img src="images/ban1.png" alt="banner"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- recent products -->
+    <section class="recent-products" id="recent">
+        <h2>Recent Products</h2>
+        <div class="recent-products-container">
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p1.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Yard Chair</a>
+                    <span>150$ <del>180$</del></span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p2.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Kitchen Set</a>
+                    <span>380$ <del>450$</del></span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p3.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Chair</a>
+                    <span>200$ <del>250$</del></span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+            <!-- product -->
+            <div class="product-box">
+                <!-- image -->
+                <a href="product.html" class="product-box-img">
+                    <img src="images/p4.png" alt="product">
+                    <span>New</span>
+                </a>
+                <!-- text -->
+                <div class="product-box-text">
+                    <a href="product.html" class="product-text-title">Office Desk</a>
+                    <span>250$ <del>275$</del></span>
+                    <a href="#" class="product-cart-btn"><i class='bx bxs-cart-alt'></i> Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services">
+        <!-- service box -->
+        <div class="services-box">
+            <i class='bx bx-package'></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping for all orders</p>
+        </div>
+        <!-- service box -->
+        <div class="services-box">
+            <i class='bx bx-support'></i>
+            <span>24/7 Support</span>
+            <p>We support our customers</p>
+        </div>
+        <!-- service box -->
+        <div class="services-box">
+            <i class='bx bx-rotate-left'></i>
+            <span>100% Refund</span>
+            <p>You can refund in 30 days</p>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- company box -->
+            <div class="footer-company-box">
+                <!-- logo -->
+                <a href="index.html" class="footer-logo">
+                    Furnity
+                </a>
+                <!-- details -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nihil illo ea. Laudantium doloribus excepturi ab eveniet soluta, fugiat, dicta sit maiores deserunt autem optio distinctio iure id iste minus.</p>
+                <!-- social -->
+                <div class="footer-social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <!-- link box -->
+            <div class="footer-link-box">
+                <strong>
+                    Main Links
+                </strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Recent</a></li>
+                </ul>
+            </div>
+            <!-- link box -->
+            <div class="footer-link-box">
+                <strong>
+                    External Links
+                </strong>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+            <!-- subscribe -->
+            <div class="subscribe">
+                <strong>Subscribe Now</strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quasi aperiam tempore?</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Your Email..." required />
+                    <button>Suscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
