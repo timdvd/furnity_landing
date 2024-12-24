@@ -16,7 +16,7 @@ Technologies Used:
 
 Installation:
 Clone the repository
- - git clone git@github.com:timdvd/furnity_landing.git 
+ - git clone https://github.com/timdvd/furnity_landing.git 
  - Open the index.html file in your browser to view the landing page.
    
 Screenshots:
